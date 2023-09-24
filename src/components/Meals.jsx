@@ -37,7 +37,7 @@ function Meals() {
                                 src={image}
                                 alt={title}
                                 className="img"
-                                onClick={() => { selectMeal(idMeal) }} />
+                                onClick={() => { selectMeal(idMeal, false) }} />
                             <footer>
                                 <h5>{title}</h5>
                                 <button className='like-btn' onClick={()=>addToFavourites(idMeal)}><BsHandThumbsUp /></button>

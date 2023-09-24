@@ -221,6 +221,12 @@ ul {
   margin: 0 auto;
 }
 
+.favourites-content h5{
+  font-size: 1.5rem;
+  text-align: center;
+  margin-bottom: 0.75rem;
+}
+
 .favourites-container {
   display: flex;
   gap: 0.5rem;
